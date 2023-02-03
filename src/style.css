@@ -1,0 +1,105 @@
+/* import fontawesome 5 */
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+
+blockquote {
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 3px 13px 5px #bababa;
+    margin: 1.5em .5rem;
+    padding: 1.1rem;
+    text-align: center;
+    font-style: normal;
+    font-size: 1.0em;
+}
+
+.share-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.share-wrapper span {
+    text-align: center;
+    display: flex;
+    margin: 0 3px;
+    float: left;
+    line-height: 1.4;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.bq-share-text {
+    font-size: 18px !important;
+}
+
+
+.bq-share-twitter {
+    background: #0088cc;
+    font-size: 15px;
+    border: 1px solid #0088cc;
+    border-radius: 15px;
+    color: #fff;
+    width: auto;
+    padding: 4px 16px;
+}
+
+
+.bq-share-whatsapp  {
+    background: #0f9806;
+    font-size: 15px;
+    border: 1px solid #0f9806;
+    border-radius: 15px;
+    color: #fff;
+    width: auto;
+    padding: 4px 16px;
+}
+
+.bq-share-facebook {
+    background: #3b5998;
+    font-size: 15px;
+    border: 1px solid #3b5998;
+    border-radius: 15px;
+    color: #fff;
+    width: auto;
+    padding: 4px 16px;
+}
+
+:is(.bq-copy, .bq-share-w, .bq-share-f, .bq-share-tw) i {
+    color: #fff !important;
+    width: 20px;
+    height: 20px;
+}
+
+.bq-copy:hover {
+    background: linear-gradient(90deg, rgba(253, 29, 29, 1) 27%, rgba(252, 176, 69, 1) 100%);
+}
+
+.bq-copy {
+    background: linear-gradient(90deg, rgb(29 139 253) 27%, rgb(5 210 182) 100%);
+    font-size: 15px;
+    font-style: normal;
+    border: none;
+    border-radius: 15px;
+    color: #fff !important;
+    padding: 4px 16px;
+    line-height: 1.1 !important;
+}
+
+.bq-copy i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copied {
+    background: linear-gradient(90deg, rgb(29 139 253) 27%, rgb(5 210 182) 100%) !important;
+    border-radius: 15px;
+    max-width: 100%;
+}
