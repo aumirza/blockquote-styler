@@ -1,0 +1,18 @@
+/* import fontawesome 5 */
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+
+.blockquote-style-1 {
+    background-color: #fff;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 1px 3px 13px 5px #bababa;
+        margin: 1.5em .5rem;
+        padding: 1.1rem !important;
+        text-align: center;
+        font-style: normal;
+        font-size: 1.0em;
+}
+
+
+

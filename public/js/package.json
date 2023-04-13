@@ -1,0 +1,13 @@
+{
+  "name": "blockquote-styler",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^25.3.0"
+  }
+}
