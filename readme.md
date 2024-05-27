@@ -1,3 +1,3 @@
 # Blockquote Styler
 
-A simple plugin to style blockquotes in WordPress.
+A WordPress plugin to style blockquotes.
