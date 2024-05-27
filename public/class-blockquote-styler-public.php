@@ -20,6 +20,6 @@ class Blockquote_Styler_Public
 
     public function enqueue_scripts()
     {
-        wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/dist/main.js', array('wp-element'), $this->version, false);
+        wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/build/index.js', array('wp-element'), $this->version, false);
     }
 }
