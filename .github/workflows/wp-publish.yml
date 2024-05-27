@@ -11,12 +11,15 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          path: ./public/js
 
       - name: Build
         working-directory: ./public/js
         run: |
           npm install
           npm run build
+          
 
       - name: WordPress Plugin Deploy
         id: deploy
@@ -26,6 +29,7 @@ jobs:
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          
       - name: Upload release asset
         uses: actions/upload-release-asset@v1
         env:
