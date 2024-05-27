@@ -11,8 +11,6 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          path: ./public/js
 
       - name: Build
         working-directory: ./public/js
