@@ -8,14 +8,16 @@ jobs:
     name: New release
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          path: public/js
+
       - name: Build
+        working-directory: ./public/js
         run: |
           npm install
           npm run build
+
       - name: WordPress Plugin Deploy
         id: deploy
         uses: 10up/action-wordpress-plugin-deploy@stable
